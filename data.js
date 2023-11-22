@@ -1,0 +1,82 @@
+let data = {
+    images: {
+        pers1: [
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg"
+        ],
+        pers2: [
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg",
+            "imacncheese.jpg"
+        ]
+    },
+    text: {
+        pers1: [
+            "Devenir de personne 1",
+            "Revenir de personne 1",
+            "Monter de personne 1",
+            "Renter de personne 1",
+            "Sortir de personne 1",
+            "Passé par de personne 1",
+            "Venir de personne 1",
+            "Arriver de personne 1",
+            "Naitre de personne 1",
+            "Descender de personne 1",
+            "Enter de personne 1",
+            "Retourner de personne 1",
+            "Tomber de personne 1",
+            "Rester de personne 1",
+            "Aller de personne 1",
+            "Mourir de personne 1",
+            "Partir de personne 1"
+        ],
+        pers2: [
+            "Devenir de personne 2",
+            "Revenir de personne 2",
+            "Monter de personne 2",
+            "Renter de personne 2",
+            "Sortir de personne 2",
+            "Passé par de personne 2",
+            "Venir de personne 2",
+            "Arriver de personne 2",
+            "Naitre de personne 2",
+            "Descender de personne 2",
+            "Enter de personne 2",
+            "Retourner de personne 2",
+            "Tomber de personne 2",
+            "Rester de personne 2",
+            "Aller de personne 2",
+            "Mourir de personne 2",
+            "Partir de personne 2"
+        ]
+    }
+}
