@@ -20,7 +20,7 @@ let data = {
             "imacncheese.jpg"
         ],
         text: [
-            "Mon nom est Jacques et je ne <span class=\"verb\">suis</span> pas <span class=\"verb\">tombé,<sup>1</sup></span> hier",
+            "Mon nom est Jacques et je ne <span class=\"verb\">suis</span> pas <span class=\"verb\">tombé<sup>1</sup></span> hier.",
             "Revenir de personne 1",
             "Monter de personne 1",
             "Renter de personne 1",
@@ -60,7 +60,7 @@ let data = {
             "imacncheese.jpg"
         ],
         text: [
-            "Devenir de personne 2",
+            "Je m'appelle Alexandre et je <span class=\"verb\">suis tombé<sup>1</sup></span> hier.",
             "Revenir de personne 2",
             "Monter de personne 2",
             "Renter de personne 2",
