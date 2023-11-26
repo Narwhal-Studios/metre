@@ -1,11 +1,11 @@
 let data = {
     pers1: {
         images: [
-            "jacques_descendre.png",
-            "imacncheese.jpg",
-            "imacncheese.jpg",
-            "imacncheese.jpg",
-            "imacncheese.jpg",
+            "images/pastomber.png",
+            "images/frere2jours.png",
+            "images/freremort.png",
+            "images/freremonstre.png",
+            "images/frerepasrentrer.png",
             "imacncheese.jpg",
             "imacncheese.jpg",
             "imacncheese.jpg",
@@ -21,10 +21,10 @@ let data = {
         ],
         text: [
             "Mon nom est Jacques et je ne <span class=\"verb\">suis</span> pas <span class=\"verb\">tombé<sup>1</sup></span> hier.",
-            "Revenir de personne 1",
-            "Monter de personne 1",
-            "Renter de personne 1",
-            "Sortir de personne 1",
+            "Mon frère <span class=\"verb\">est né<sup>1</sup></span> il y a deux jours.",
+            "Mon frère <span class=\"verb\">est mort<sup>1</sup></span> il y a un jour.",
+            "Mon frère <span class=\"verb\">est devenu<sup>1</sup></span> un monstre hier.",
+            "Mon frère n'<span class=\"verb\">est</span> pas <span class=\"verb\">rentré<sup>1</sup></span> d'université hier.",
             "Passé par de personne 1",
             "Venir de personne 1",
             "Arriver de personne 1",
@@ -41,11 +41,11 @@ let data = {
     },
     pers2: {
         images: [
-            "imacncheese.jpg",
-            "imacncheese.jpg",
-            "imacncheese.jpg",
-            "imacncheese.jpg",
-            "imacncheese.jpg",
+            "images/tomber.png",
+            "images/frere2annees.png",
+            "images/frerepasmort.png",
+            "images/frerepasmonstre.png",
+            "images/frererentrer.png",
             "imacncheese.jpg",
             "imacncheese.jpg",
             "imacncheese.jpg",
@@ -61,10 +61,10 @@ let data = {
         ],
         text: [
             "Je m'appelle Alexandre et je <span class=\"verb\">suis tombé<sup>1</sup></span> hier.",
-            "Revenir de personne 2",
-            "Monter de personne 2",
-            "Renter de personne 2",
-            "Sortir de personne 2",
+            "Mon frère <span class=\"verb\">est né<sup>1</sup></span> il y a deux années.",
+            "Mon frère n'<span class=\"verb\">est</span> pas <span class=\"verb\">mort<sup>1</sup></span>.",
+            "Mon frère n'<span class=\"verb\">est</span> pas <span class=\"verb\">devenu<sup>1</sup></span> un monstre.",
+            "Mon frère <span class=\"verb\">est rentré<sup>1</sup></span> d'université hier.",
             "Passé par de personne 2",
             "Venir de personne 2",
             "Arriver de personne 2",
@@ -92,7 +92,8 @@ let currentPerson = document.getElementById("person")
 let verbs = ["devenir", "revenir", "monter", "rester", "sortir", "venir", "aller", "naître", "descendre", "entrer", "renter", "tomber", "retourner", "arriver", "mourir", "partir"]
 let verb = 0
 
-img.src = getPerson(person).images[verb]
+img.src = data.pers1.images[0]
+console.log(data.pers1.images[0])
 text.innerHTML = getPerson(person).text[verb]
 currentPerson.innerHTML = person
 
