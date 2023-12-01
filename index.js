@@ -80,7 +80,7 @@ let data = {
             "Je <span class=\"p2verb\">suis tombé<sup>2</sup></span> de l'échelle.",
             "Un de mes autres amis dans le bateau <span class=\"p2verb\">est</span> aussi <span class=\"p2verb\">tombé<sup>1</sup></span>.",
             "Les autres <span class=\"p2verb\">sont revenus<sup>1</sup></span> en France.",
-            "Nous <span class=\"p2verb\">sommes passés par<sup>1</sup></span> sur beaucoup de poissons.",
+            "Nous <span class=\"p2verb\">sommes passés par<sup>1</sup></span> beaucoup de poissons.",
             "Nous <span class=\"p2verb\">sommes arrivés<sup>1</sup></span> sur une île aléatoire.",
             "Par chance, je <span class=\"p2verb\">suis venu<sup>1</sup></span> dans un bateau très vieil.",
             "Moi et mon ami <span class=\"p2verb\">sommes entrés<sup>1</sup></span> le bateau et nous avons navigué.",
