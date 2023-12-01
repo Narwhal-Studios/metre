@@ -61,7 +61,6 @@ let data = {
             "images/island.png",
             "images/boatfound.png",
             "images/enterboat.png",
-            "images/sailboat.png",
             "images/fouryearsboat.png",
             "images/doubleleaveboat.png",
             "images/populus.png",
